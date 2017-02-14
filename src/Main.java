@@ -1,6 +1,6 @@
 
 public class Main {
-	//§ä¥X 3 ¶ê¶¡­«Å|ªº¤¤¤ßÂI
+	//æ‰¾å‡º 3 åœ“é–“é‡ç–Šçš„ä¸­å¿ƒé»
 	public static void main(String[] args) {
 		
 		int ax = 100;
@@ -32,9 +32,9 @@ public class Main {
 		int[] ab = new int[3]; // A-B
 		ab[0] = array[0][0] - array[1][0]; //Ax - Bx
 		ab[1] = array[0][1] - array[1][1]; //Ay - By
-		ab[2] = array[0][2] - array[1][2]; //A±`¼Æ - B±`¼Æ
+		ab[2] = array[0][2] - array[1][2]; //Aå¸¸æ•¸ - Bå¸¸æ•¸
 		
-		//°£¥H y ªº«Y¼Æ
+		//é™¤ä»¥ y çš„ä¿‚æ•¸
 		ab[0] = ab[0] / ab[1];
 		ab[2] = ab[2] / ab[1];
 		ab[1] = ab[1] / ab[1];
@@ -42,9 +42,9 @@ public class Main {
 		int[] bc = new int[3]; //B-C
 		bc[0] = array[1][0] - array[2][0]; //Bx - Cx
 		bc[1] = array[1][1] - array[2][1]; //By - Cy
-		bc[2] = array[1][2] - array[2][2]; //B±`¼Æ - C±`¼Æ
+		bc[2] = array[1][2] - array[2][2]; //Bå¸¸æ•¸ - Cå¸¸æ•¸
 		
-		//°£¥H y ªº«Y¼Æ
+		//é™¤ä»¥ y çš„ä¿‚æ•¸
 		bc[0] = bc[0] / bc[1];
 		bc[2] = bc[2] / bc[1];
 		bc[1] = bc[1] / bc[1];
@@ -53,7 +53,7 @@ public class Main {
 		System.out.println("X: " + x);
 		int y = Math.abs(bc[0] * x + 250);
 		System.out.println("Y: " + y);
-		System.out.println("3 ¶ê¶¡­«Å|ªº¤¤¤ßÂI¡G (" + x + ", " + y + ")");
+		System.out.println("3 åœ“é–“é‡ç–Šçš„ä¸­å¿ƒé»ï¼š (" + x + ", " + y + ")");
 		
 	}
 
